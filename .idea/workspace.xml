@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d455e8be-5c35-4e64-a34a-580794c44f84" name="Default Changelist" comment="创建项目">
-      <change afterPath="$PROJECT_DIR$/src/StrategyParttern/AxeBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyParttern/BowAndArrowBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyParttern/Character.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyParttern/King.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyParttern/KnifeBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyParttern/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyParttern/Queen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyParttern/SwordBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyParttern/TestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyParttern/Troll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrategyParttern/WeaponBehavior.java" afterDir="false" />
+    <list default="true" id="d455e8be-5c35-4e64-a34a-580794c44f84" name="Default Changelist" comment="策略模式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +15,7 @@
     <session id="-2075951342">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="2" />
@@ -37,14 +25,14 @@
         <counts>
           <entry key="java" value="413" />
           <entry key="md" value="72" />
-          <entry key="txt" value="10" />
+          <entry key="txt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="413" />
           <entry key="Markdown" value="72" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="PLAIN_TEXT" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -100,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/src/StrategyParttern/King.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="127">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -135,8 +123,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/StrategyParttern/TestMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            <state relative-caret-position="225">
+              <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -202,12 +190,12 @@
         <option value="$PROJECT_DIR$/src/StrategyParttern/AxeBehavior.java" />
         <option value="$PROJECT_DIR$/src/StrategyParttern/KnifeBehavior.java" />
         <option value="$PROJECT_DIR$/src/StrategyParttern/SwordBehavior.java" />
-        <option value="$PROJECT_DIR$/src/StrategyParttern/TestMain.java" />
         <option value="$PROJECT_DIR$/src/StrategyParttern/Character.java" />
         <option value="$PROJECT_DIR$/src/StrategyParttern/King.java" />
         <option value="$PROJECT_DIR$/src/StrategyParttern/Queen.java" />
         <option value="$PROJECT_DIR$/src/StrategyParttern/Knight.java" />
         <option value="$PROJECT_DIR$/src/StrategyParttern/Troll.java" />
+        <option value="$PROJECT_DIR$/src/StrategyParttern/TestMain.java" />
       </list>
     </option>
   </component>
@@ -257,7 +245,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542722156251" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542722214831" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -309,16 +297,23 @@
       <option name="presentableId" value="Default" />
       <updated>1542717730570</updated>
       <workItem from="1542717734009" duration="307000" />
-      <workItem from="1542718281844" duration="3217000" />
+      <workItem from="1542718281844" duration="3311000" />
     </task>
+    <task id="LOCAL-00001" summary="策略模式">
+      <created>1542722210792</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542722210792</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3524000" />
+    <option name="totallyTimeSpent" value="3618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497979" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -330,7 +325,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291815" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3291815" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -382,6 +377,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="策略模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="策略模式" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -461,7 +460,7 @@
     <entry file="file://$PROJECT_DIR$/src/StrategyParttern/King.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -488,8 +487,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StrategyParttern/TestMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="225">
+          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
         </state>
       </provider>
     </entry>
