@@ -1,4 +1,6 @@
 package DecorateParttern;
 
-public class CondimentDecorator {
+public abstract class CondimentDecorator  extends  Beverage{
+    @Override
+    public abstract String getDesectrption();
 }
